@@ -69,7 +69,7 @@ public class bus_race extends bus {
                 System.out.println("하차 승객 수 =" + b);
                 System.out.println("잔여 승객 수 =" + (inside_passenger));
             } else if (now_passenger_num - b < 0) {
-                System.out.println("내리는 사람이 타있는 사람보다 많은데 귀신이라도 탔습니까?");
+                System.out.println("내리는 사람이 타있는 사람보다 많은데 귀신이라도 내립니까?");
             }
         } else if (situation.equals("차고지행")) {
             System.out.println("차량 운행 중이 아닙니다");
